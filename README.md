@@ -3,7 +3,7 @@ by Dark Energy, and finally, an Universe that mirrors ours, with the same conten
 
 The Friedmann Equation states that the scale factor a, which parameterizes the Universe expansion, has its evolution dependent on the Universe components:
 
-$$H^2 = \left(\frac{\dot{a}}{a}\right)^2 = \frac{8 \pi G}{3} \rho(t) - \frac{\kappa}{R_0^2 a^2}$$
+$$H^2 = \left(\frac{\dot{a}}{a}\right)^2 = \frac{8 \pi G}{3} \rho(t) - \frac{\kappa}{R_0^2 a^2}$$\
 where $\rho(t)$ represents the total energy density of the Universe and $G$ is the Newtonian Constant of Gravitation. For this equation, and for the following analysis, we adopt the usage of natural units ($c = \hbar = 1$). The second term relates to the geometry of our Universe: $\kappa > 0$ represents an elliptical geometry, $\kappa = 0$ an Euclidean geometry, and $\kappa < 0$ an hyperbolic geometry. Finally, $R_0$ is the curvature radius for the Universe. According to recent estimates, cosmological evidence points that our Universe is very close to flat \cite{planckmeasurements}, as considered in the $\Lambda CDM$ model. Hence, from now on, we take $\kappa = 0$.
 
 Using Eq.~\ref{friedmann} and computing the second derivative of the scale factor:
