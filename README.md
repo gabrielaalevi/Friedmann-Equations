@@ -8,11 +8,11 @@ where $\rho(t)$ represents the total energy density of the Universe and $G$ is t
 
 Using the Friedman Equation and computing the second derivative of the scale factor:\
 $$\dot{a} = H a \Rightarrow \ddot{a} = \dot{a} H + a \frac{d H}{dt}$$\
-But:
-    $$H  = \sqrt{\frac{8 \pi G}{3} \rho(t)} \Rightarrow \frac{d H}{d t} = \frac{1}{2} H \frac{\Dot{\rho}}{\rho}$$\
-    $$\Rightarrow & \Ddot{a} = \Dot{a} H + a \frac{H}{2} \frac{\Dot{\rho}}{\rho}$$\
-    $$\Rightarrow & \Ddot{a} = \frac{\Dot{a}^2}{a} + \frac{\Dot{a}}{2} \frac{\Dot{\rho}}{\rho}$$ \
-where we have used $\Dot{a} = H a$ in the last step. Therefore, in order to determine $a(t)$ we must also determine how the energy density evolves with time.
+But:\
+    $$H  = \sqrt{\frac{8 \pi G}{3} \rho(t)} \Rightarrow \frac{d H}{d t} = \frac{1}{2} H \frac{\dot{\rho}}{\rho}$$\
+    $$\Rightarrow & \ddot{a} = \dot{a} H + a \frac{H}{2} \frac{\dot{\rho}}{\rho}$$\
+    $$\Rightarrow & \ddot{a} = \frac{\dot{a}^2}{a} + \frac{\dot{a}}{2} \frac{\dot{\rho}}{\rho}$$ \
+where we have used $\dot{a} = H a$ in the last step. Therefore, in order to determine $a(t)$ we must also determine how the energy density evolves with time.
 
 The time evolution of $\rho$ can be determined under some simplifying assumptions. We begin by considering the First Law of Thermodynamics:
 \begin{equation}
