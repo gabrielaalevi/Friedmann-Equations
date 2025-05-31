@@ -134,10 +134,10 @@ where $\lambda$ is its wavelength. Therefore, as the wavelength increases by a f
 
 Today, the measured energy densities, for radiation, baryonic matter, Dark Matter, and Dark Energy are, respectively:
 
-$$\rho_R & \approx & 4.64 \times 10^{-34} \mbox{GeV}^4$$
-$$\rho_{BM} & \approx & 4.20 \times 10^{-31} \mbox{GeV}^4$$
-$$\rho_{DM} & \approx & 2.25 \times 10^{-30} \mbox{GeV}^4$$
-$$\rho_{DE} & = & 5.83 \times 10^{-30} \mbox{GeV}^4$$
+$$\rho_R \approx 4.64 \times 10^{-34} \mbox{GeV}^4$$
+$$\rho_{BM} \approx 4.20 \times 10^{-31} \mbox{GeV}^4$$
+$$\rho_{DM} \approx 2.25 \times 10^{-30} \mbox{GeV}^4$$
+$$\rho_{DE} \approx 5.83 \times 10^{-30} \mbox{GeV}^4$$
 
 Employing these values and knowing how each density changes with $a$, we are able to estimate the initial energy densities $\rho_0$, and analyse how $\rho_{TOTAL}$ changed with time.
 The result is that, for the approximate first 50 thousand years after the Big Bang, the Universe was dominated by radiation. Afterwards, we arrive at a point where matter and radiation had the same density, known as the matter-radiation equality. Following this moment, we enter an era where the dominant component of the Universe was matter. Lastly, when the Universe was approximately 8 billion years old, dark energy density became bigger than matter density.
