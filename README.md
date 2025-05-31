@@ -98,11 +98,11 @@ where $ w = 0,1/3,-1$ for matter, radiation and Dark Energy, respectively.
 
 Using the above results, we can finally integrate the Fluid Equation:
 
-$$\rho(t) = \int \Dot{\rho} dt = \int -3 \frac{\Dot{a}}{a} (P + \rho) dt$$
+$$\rho(t) = \int \dot{\rho} dt = \int -3 \frac{\dot{a}}{a} (P + \rho) dt$$
 
 Then, using the pressure, we obtain:
 
-$$\rho(t) = \int - 3 \frac{\Dot{a}}{a} \rho (1 + w) dt$$
+$$\rho(t) = \int - 3 \frac{\dot{a}}{a} \rho (1 + w) dt$$
 
 Therefore:\
 
@@ -122,7 +122,7 @@ $$\rho_M  =  \rho_{M,0} \left(\frac{a_0}{a}\right)^{3} \mbox{ (matter)}$$
 
 $$\rho_R  =  \rho_{R,0} \left(\frac{a_0}{a}\right)^{4}  \mbox{ (radiation) }$$
 
-$$\rho_{DE} & = & \rho_{DE,0} \mbox{ (Dark Energy)}$$
+$$\rho_{DE} = \rho_{DE,0} \mbox{ (Dark Energy)}$$
 
 
 Through this, we can see that radiation density decreases faster than matter density, and that dark energy density is constant.
