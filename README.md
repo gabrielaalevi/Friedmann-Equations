@@ -10,38 +10,28 @@ Using the Friedman Equation and computing the second derivative of the scale fac
 $$\dot{a} = H a \Rightarrow \ddot{a} = \dot{a} H + a \frac{d H}{dt}$$\
 But:\
     $$H  = \sqrt{\frac{8 \pi G}{3} \rho(t)} \Rightarrow \frac{d H}{d t} = \frac{1}{2} H \frac{\dot{\rho}}{\rho}$$\
-    $$\Rightarrow & \ddot{a} = \dot{a} H + a \frac{H}{2} \frac{\dot{\rho}}{\rho}$$\
-    $$\Rightarrow & \ddot{a} = \frac{\dot{a}^2}{a} + \frac{\dot{a}}{2} \frac{\dot{\rho}}{\rho}$$ \
+    $$\ddot{a} = \dot{a} H + a \frac{H}{2} \frac{\dot{\rho}}{\rho}$$\
+    $$\ddot{a} = \frac{\dot{a}^2}{a} + \frac{\dot{a}}{2} \frac{\dot{\rho}}{\rho}$$ \
 where we have used $\dot{a} = H a$ in the last step. Therefore, in order to determine $a(t)$ we must also determine how the energy density evolves with time.
 
-The time evolution of $\rho$ can be determined under some simplifying assumptions. We begin by considering the First Law of Thermodynamics:
-\begin{equation}
-    dQ = dU + dW
-\end{equation}
-where $dQ$ is the heat that enters or exits a specific region in space, $dU$ is the energy variation in this determined region, and $dW$ is the work made inside this area. If we consider this volume to be expanding, we can write:
-\begin{equation}
-    dW = P dV \Rightarrow dQ = dU + P dV ,
-\end{equation}
+The time evolution of $\rho$ can be determined under some simplifying assumptions. We begin by considering the first law of Thermodynamics:\
+    $$dQ = dU + dW$$\
+where $dQ$ is the heat that enters or exits a specific region in space, $dU$ is the energy variation in this determined region, and $dW$ is the work made inside this area. If we consider this volume to be expanding, we can write:\
+$$dW = P dV \Rightarrow dQ = dU + P dV$$\
 where $P$ is the system's external pressure, and $dV$ represents the change in volume.
 
 If our Universe is homogeneous, then there is no relevant flow of heat into any region in space. Therefore $dQ = 0$, and the expansion is an adiabatic process. Consequently, the expansion does not increase entropy, which would be expected if we assume that the total entropy in our Universe is constant (entropy density, however, still changes due to the expansion).
 
-Therefore:
-\begin{equation}
-    dU + P dV = 0 \label{eq:firstlaw}
-\end{equation}
+Therefore:\
+    $$dU + P dV = 0$$\
 
-If we choose our system to be a sphere of radius $R(0) = 1$, that changes with time as $R(t) = R(0) a(t) = a(t)$, its volume will be:
-\begin{equation}
-    V = \frac{4}{3} \pi a(t)^3 \Rightarrow dV = 4 \pi a(t)^2 \frac{da(t)}{dt} \label{eq:dV}
-\end{equation}
+If we choose our system to be a sphere of radius $R(0) = 1$, that changes with time as $R(t) = R(0) a(t) = a(t)$, its volume will be:\
+    $$V = \frac{4}{3} \pi a(t)^3 \Rightarrow dV = 4 \pi a(t)^2 \frac{da(t)}{dt}$$\
 
-Choosing the energy density of this area to be $\rho$, the total internal energy $U$ inside this sphere is:
-\begin{equation}
-    U = \frac{4}{3} \pi a(t)^3 \rho \Rightarrow dU = 4 \pi a(t)^2 \frac{d a(t)}{dt} \rho + \frac{4}{3} \pi a(t)^3 \frac{d \rho}{dt} \label{eq:dU}
-\end{equation}
+Choosing the energy density of this area to be $\rho$, the total internal energy $U$ inside this sphere is:\
+    $$U = \frac{4}{3} \pi a(t)^3 \rho \Rightarrow dU = 4 \pi a(t)^2 \frac{d a(t)}{dt} \rho + \frac{4}{3} \pi a(t)^3 \frac{d \rho}{dt}$$\
 
-Finally, substituting Eqs.\ref{eq:dV} and \ref{eq:dU} in Eq.\ref{eq:firstlaw}:
+Finally, substituting in the previous equations:\
 \begin{eqnarray}
     4 \pi a(t)^2 \dot{a} (P + \rho) + \frac{4}{3} \pi a(t)^3 \dot{\rho} = 0 \nonumber\\
     \Rightarrow \dot{\rho} + 3 \frac{\dot{a}}{a} (P + \rho) = 0 
