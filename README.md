@@ -58,9 +58,9 @@ $$\frac{\ddot{a}}{a} = \frac{-4 \pi G}{3} (\rho + 3P)$$
 
 which determines how the Universe acceleration evolves with time.
 
-From this equation, it is possible to see that, if both energy density ($\rho$) and pressure ($P$) are positive, then Universe expansion should be slowing down. However, from observations of galaxy velocities, we know this is not true. The expansion rate is actually increasing with time. Today, the main theory to explain this acceleration phenomenon is \textit{Dark Energy} . In the $\Lambda CDM$ model, Dark Energy is a cosmological constant $\Lambda$, related to an intrinsic vacuum energy. Analysis of anisotropies present in the Cosmic Microwave Background (CMB) predict that almost 68$\%$ of our Universe is made of Dark Energy.
+From this equation, it is possible to see that, if both energy density ($\rho$) and pressure ($P$) are positive, then Universe expansion should be slowing down. However, from observations of galaxy velocities, we know this is not true. The expansion rate is actually increasing with time. Today, the main theory to explain this acceleration phenomenon is Dark Energy . In the $\Lambda CDM$ model, Dark Energy is a cosmological constant $\Lambda$, related to an intrinsic vacuum energy. Analysis of anisotropies present in the Cosmic Microwave Background (CMB) predict that almost 68 of our Universe is made of Dark Energy.
 
-The $\Lambda CDM$ model considers that our Universe is made of 31$\%$ of matter (both baryonic and dark), 68$\%$ of Dark Energy (as mentioned previously), and the rest of radiation. However, this scenario was not always true. Right after the Big Bang, the Universe was dominated by radiation. 
+The $\Lambda CDM$ model considers that our Universe is made of 31% of matter (both baryonic and dark), 68% of Dark Energy (as mentioned previously), and the rest of radiation. However, this scenario was not always true. Right after the Big Bang, the Universe was dominated by radiation. 
 
 In order to understand how the densities of each component and scale factor evolved during these times, we must first determine how the pressure is related to the energy density. For a non-relativistic and ideal gas  we can use the perfect gas law:
 
@@ -132,7 +132,7 @@ $$E = \frac{2 \pi}{\lambda}$$
 
 where $\lambda$ is its wavelength. Therefore, as the wavelength increases by a factor $a$, the energy decreases by the same factor $a$. So, radiation energy density decreases by the variation of the total volume of the Universe, but also by the redshift it suffers in this process.
 
-Today, the measured energy densities, for radiation, baryonic matter, Dark Matter, and Dark Energy are, respectively \cite{planckmeasurements}:
+Today, the measured energy densities, for radiation, baryonic matter, Dark Matter, and Dark Energy are, respectively:
 
 $$\rho_R & \approx & 4.64 \times 10^{-34} \mbox{GeV}^4$$
 $$\rho_{BM} & \approx & 4.20 \times 10^{-31} \mbox{GeV}^4$$
