@@ -7,11 +7,11 @@ $$H^2 = \left(\frac{\dot{a}}{a}\right)^2 = \frac{8 \pi G}{3} \rho(t) - \frac{\ka
 where $\rho(t)$ represents the total energy density of the Universe and $G$ is the Newtonian Constant of Gravitation. For this equation, and for the following analysis, we adopt the usage of natural units ($c = \hbar = 1$). The second term relates to the geometry of our Universe: $\kappa > 0$ represents an elliptical geometry, $\kappa = 0$ an Euclidean geometry, and $\kappa < 0$ an hyperbolic geometry. Finally, $R_0$ is the curvature radius for the Universe. According to recent estimates, cosmological evidence points that our Universe is very close to flat, as considered in the $\Lambda CDM$ model. Hence, from now on, we take $\kappa = 0$.
 
 Using the Friedman Equation and computing the second derivative of the scale factor:\
-$$\Dot{a} = H a \Rightarrow \Ddot{a} = \Dot{a} H + a \frac{d H}{dt}$$
+$$\dot{a} = H a \Rightarrow \ddot{a} = \dot{a} H + a \frac{d H}{dt}$$\
 But:
-    $$H & = & \sqrt{\frac{8 \pi G}{3} \rho(t)} \Rightarrow \frac{d H}{d t} = \frac{1}{2} H \frac{\Dot{\rho}}{\rho} \nonumber\\
-    & \Rightarrow & \Ddot{a} = \Dot{a} H + a \frac{H}{2} \frac{\Dot{\rho}}{\rho} \nonumber\\
-    & \Rightarrow & \Ddot{a} = \frac{\Dot{a}^2}{a} + \frac{\Dot{a}}{2} \frac{\Dot{\rho}}{\rho}$$
+    $$H  = \sqrt{\frac{8 \pi G}{3} \rho(t)} \Rightarrow \frac{d H}{d t} = \frac{1}{2} H \frac{\Dot{\rho}}{\rho}$$\
+    $$\Rightarrow & \Ddot{a} = \Dot{a} H + a \frac{H}{2} \frac{\Dot{\rho}}{\rho}$$\
+    $$\Rightarrow & \Ddot{a} = \frac{\Dot{a}^2}{a} + \frac{\Dot{a}}{2} \frac{\Dot{\rho}}{\rho}$$ \
 where we have used $\Dot{a} = H a$ in the last step. Therefore, in order to determine $a(t)$ we must also determine how the energy density evolves with time.
 
 The time evolution of $\rho$ can be determined under some simplifying assumptions. We begin by considering the First Law of Thermodynamics:
